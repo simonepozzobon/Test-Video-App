@@ -1,8 +1,7 @@
 <?php
-
+set_include_path('/var/ini');
 // A convenient place to suppress errors and avoid corrupt json responses
 ini_set('display_errors', 0);
-
 
 include_once(dirname(__FILE__) . '/loadutils.php');
 load_utils('service','http','log','path');
